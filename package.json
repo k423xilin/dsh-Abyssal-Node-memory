@@ -1,0 +1,41 @@
+{
+  "name": "koishi-plugin-dsh-abyssal-node-memory",
+  "version": "2.0.0",
+  "description": "dsh-Abyssal Node-memory — a persistent memory loop for Koishi chatbots: full-text index, session archive, two-tier memory, tendencies, boundaries, and QQ-number based identity.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "schema.sql",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "koishi",
+    "koishi-plugin",
+    "chatbot",
+    "memory",
+    "long-term-memory",
+    "rag",
+    "sqlite",
+    "fts5",
+    "ollama"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "koishi": "^4.18.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_NAME/dsh-Abyssal-Node-memory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_NAME/dsh-Abyssal-Node-memory/issues"
+  },
+  "homepage": "https://github.com/YOUR_NAME/dsh-Abyssal-Node-memory#readme"
+}

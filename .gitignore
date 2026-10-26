@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# runtime data — never commit a real database
+*.db
+*.db-wal
+*.db-shm
+data/
+koishi.db
+
+# logs
+*.log
+logs/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# local config with real QQ numbers
+config.local.*
+.env
+.env.*
